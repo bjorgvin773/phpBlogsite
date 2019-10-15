@@ -1,0 +1,21 @@
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.blogs .item {
+  border: 1px #ccc solid;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.blogs .item .extra-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.blogs .item .extra-info span {
+  flex-basis: 8rem;
+}
